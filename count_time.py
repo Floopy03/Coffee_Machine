@@ -6,5 +6,5 @@ def countdown():
     print(f'Это займет {sec} секунд.')
     for i in range(sec):
         time.sleep(1)
-        print(i)
+        print(i+1)
         i-=1
